@@ -35,12 +35,10 @@ public class Database {
             is.close();
             String text = new String(buffer, "utf-8");
 
-
             //Sử dụng Gson để chuyển Json về Object City
             Gson gson = new GsonBuilder().create();
             Type listType = new TypeToken<HashSet<City>>() {}.getType();
             usersList = gson.fromJson(text, listType);  //Chuyển toàn bộ json thành mảng City
-
 
             //Todo: TEST
 //            System.out.println("So luong "+ usersList.size());

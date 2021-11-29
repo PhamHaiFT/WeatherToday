@@ -44,7 +44,6 @@ public class InAppPurchaseActivity extends AppCompatActivity implements Purchase
     public static final String PRODUCT_ID = "purchase";
     private BillingClient billingClient;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
