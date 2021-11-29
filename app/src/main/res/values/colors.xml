@@ -16,4 +16,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="semi_black">#87000000</color>
     <color name="grey">#FF828282</color>
+    <color name="background_color">#BBDEFB</color>
 </resources>

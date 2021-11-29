@@ -4,7 +4,7 @@
     style="@style/Theme.AppCompat.NoActionBar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BBDEFB"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -27,6 +27,15 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:elevation="@dimen/_10sdp"
             android:src="@drawable/ic_add_circle"></ImageView>
+
+        <ImageView
+            android:id="@+id/btnDonate"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:elevation="@dimen/_10sdp"
+            android:src="@drawable/coffee"
+            android:layout_toStartOf="@id/btnLocation"
+            />
 
         <me.relex.circleindicator.CircleIndicator
             android:id="@+id/indicator"
@@ -76,6 +85,7 @@
         android:id="@+id/vpMain"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:overScrollMode="never"
         android:layout_marginTop="@dimen/_30sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

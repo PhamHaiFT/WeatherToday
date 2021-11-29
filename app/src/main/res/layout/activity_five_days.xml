@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1D1D1D"
-    tools:context=".activity.FiveDaysActivity">
+    tools:context="com.wweeaatthheerr.ttooddaayy.activity.FiveDaysActivity">
 
     <ImageView
         android:id="@+id/imgLoading"
